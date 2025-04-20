@@ -1,0 +1,41 @@
+{
+  "begriff": "Dyadikon",
+  "beschreibung": "Ein strukturiertes, dyadisches Wissenssystem zur Verbindung von Bewegung, KI, Mensch und Erkenntnis. Es umfasst KE-Container, Dyadenstrukturen, Pflegewissen, Bibelanalysen und eine neue Philosophie: Corpomovismus.",
+  "typ": "wissensarchitektur",
+  "sprache": "Deutsch",
+  "struktur": {
+    "basis": "dyade (arg1, opt, arg2, res)",
+    "container": "begriff, beschreibung, dyade, anki, verknuepfungen",
+    "formate": ["json", "html", "txt", "md"]
+  },
+  "komponenten": [
+    "KE-Pool",
+    "Pflegewissen",
+    "Bibelstruktur",
+    "Philosophie: Corpomovismus",
+    "KI-Integration (e-friend)",
+    "Anki-Export",
+    "Strukturgenerator (zukünftig)"
+  ],
+  "dyade": {
+    "arg1": "Vorhandenes Weltwissen",
+    "opt": "Strukturierung durch dyadisches KE-System",
+    "arg2": "Mensch in Bewegung",
+    "res": "Neues, verkörpertes Wissen"
+  },
+  "verknuepfungen": [
+    "Pflege",
+    "Bewegungsphilosophie",
+    "Wissensränder",
+    "Erkenntnis durch Körper",
+    "BlotSort",
+    "Bibeltext als KE-Quelle"
+  ],
+  "anki": {
+    "frage": "Was ist das Dyadikon?",
+    "antwort": "Ein strukturiertes, dyadisches Wissenssystem, das KE-Container, Bewegung, KI und Mensch verbindet – mit dem Ziel, Erkenntnis dynamisch und verkörperbar darzustellen."
+  },
+  "quelle": "https://github.com/PAL46/Dyadikon",
+  "erstellt_am": "2025-04-20"
+}
+

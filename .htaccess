@@ -1,0 +1,12 @@
+<Files *.json>
+   AddType application/json .json
+</Files>
+
+<IfModule mod_headers.c>
+   <FilesMatch "\.(json)$">
+      Header set Access-Control-Allow-Origin "*"
+   </FilesMatch>
+</IfModule>
+
+# Test: erzwinge HTML statt Directory Listing
+Options -Indexes
