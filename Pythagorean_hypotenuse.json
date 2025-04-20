@@ -1,0 +1,77 @@
+{
+  "ke_id": "pythagorean_hypotenuse_v1",
+  "title": "Calculation of Hypotenuse according to Pythagoras",
+  "tags": ["geometry", "triangle", "pythagoras", "dyad", "math", "f64"],
+  "language": "universal",
+
+  "description": "This KE describes how to calculate the hypotenuse of a right triangle using the Pythagorean Theorem. Given two sides a and b, the hypotenuse c satisfies the equation: c = sqrt(a^2 + b^2). This theorem is one of the oldest known results in mathematics, essential in Euclidean geometry.",
+
+  "history": {
+    "origin": "Attributed to Pythagoras (~570–495 BC), but also found in earlier Babylonian mathematics.",
+    "significance": "Used in geometry, trigonometry, computer graphics, physics, and engineering."
+  },
+
+  "formula": "c = sqrt(a^2 + b^2)",
+  "latex": "c = \\sqrt{a^2 + b^2}",
+
+  "dyad_chain": [
+    {
+      "op": "^",
+      "left": "a",
+      "right": 2,
+      "result": "a_squared",
+      "type": "f64"
+    },
+    {
+      "op": "^",
+      "left": "b",
+      "right": 2,
+      "result": "b_squared",
+      "type": "f64"
+    },
+    {
+      "op": "+",
+      "left": "a_squared",
+      "right": "b_squared",
+      "result": "sum_of_squares",
+      "type": "f64"
+    },
+    {
+      "op": "sqrt",
+      "input": "sum_of_squares",
+      "result": "c",
+      "type": "f64",
+      "domain_check": true
+    }
+  ],
+
+  "example": {
+    "inputs": {"a": 3.0, "b": 4.0},
+    "expected_output": {"c": 5.0}
+  },
+
+  "explanation": [
+    "a = 3.0, b = 4.0",
+    "a^2 = 9.0, b^2 = 16.0",
+    "Sum of squares = 25.0",
+    "sqrt(25.0) = 5.0",
+    "Therefore, c = 5.0"
+  ],
+
+  "related_kes": [
+    "euclidean_distance",
+    "triangle_properties",
+    "circle_theorem",
+    "vector_norm",
+    "pythagorean_identity_in_trig"
+  ],
+
+  "exports": ["LaTeX", "Markdown", "Dyad-JSON", "Python", "Rust"],
+
+  "metadata": {
+    "requires_units": ["f64"],
+    "can_be_auto_visualized": true,
+    "can_be_audited_stepwise": true,
+    "is_fully_self_explaining": true
+  }
+}

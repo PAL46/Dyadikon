@@ -1,0 +1,25 @@
+{
+  "KE_Container": {
+    "title": "Genesis",
+    "type": "bible structure",
+    "version": "Lutherbibel 2017",
+    "language": "Deutsch",
+    "sections": [
+      {
+        "title": "Die Schöpfung",
+        "start": {"chapter": "1", "verse": "1"},
+        "end": {"chapter": "2", "verse": "4"},
+        "highlights": [
+          {
+            "start": {"chapter": "1", "verse": "27"},
+            "end": {"chapter": "1", "verse": "27"}
+          },
+          {
+            "start": {"chapter": "1", "verse": "31"},
+            "end": {"chapter": "1", "verse": "31"}
+          }
+        ]
+      }
+    ]
+  }
+}

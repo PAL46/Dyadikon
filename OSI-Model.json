@@ -1,0 +1,57 @@
+{
+  "KE": {
+    "title": "OSI Model - Interactive Exercise Generator",
+    "description": "This KE unit enables an AI to generate personalized exercises and challenges for learning the OSI 7-layer model, from theoretical knowledge to practical application.",
+    "learning_goals": [
+      "Understand the purpose and function of each OSI layer.",
+      "Identify protocols associated with each layer.",
+      "Apply OSI-layer reasoning in troubleshooting scenarios.",
+      "Distinguish between similar layers (e.g., Transport vs. Network)."
+    ],
+    "progression_structure": [
+      {
+        "level": "Beginner",
+        "focus": "Layer names, order, and basic function",
+        "exercise_types": ["Multiple-choice", "Layer-ordering", "True/False"]
+      },
+      {
+        "level": "Intermediate",
+        "focus": "Protocol-to-layer mapping, data types per layer",
+        "exercise_types": ["Matching", "Fill-in-the-blank", "Short answer"]
+      },
+      {
+        "level": "Advanced",
+        "focus": "Real-world scenarios, troubleshooting, security relevance",
+        "exercise_types": ["Case study analysis", "Protocol identification", "Layer isolation in network errors"]
+      }
+    ],
+    "actions": [
+      {
+        "action": "Generate 3 beginner-level exercises",
+        "description": "Ensure the user can recall the layer names and explain their primary functions."
+      },
+      {
+        "action": "Propose a matching task between protocols and layers",
+        "description": "Include protocols like HTTP, IP, TCP, ARP, and explain answers afterward."
+      },
+      {
+        "action": "Simulate a troubleshooting scenario",
+        "description": "Describe a fictional network issue and ask the user to identify which OSI layer is likely at fault."
+      },
+      {
+        "action": "Use analogy-based learning",
+        "description": "Introduce a layered analogy (postal system, factory) and ask the user to map it to the OSI model."
+      }
+    ],
+    "metadata": {
+      "difficulty_levels_supported": ["Beginner", "Intermediate", "Advanced"],
+      "requires_feedback": true,
+      "preferred_format": "Q&A style with brief explanations after each answer",
+      "language": "English",
+      "type": "Technical Networking Knowledge",
+      "version": "1.0",
+      "author": "User-generated KE",
+      "last_updated": "2025-03-21"
+    }
+  }
+}

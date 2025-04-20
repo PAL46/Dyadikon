@@ -1,0 +1,42 @@
+{
+  "ke_container": {
+    "title": "Short description of the idea or statement",
+    "timestamp": "2025-03-21T22:55:00Z",
+    "status": "open | in progress | completed | concept | critical | speculative",
+
+    "core_statement": "This is the central idea, statement, or question.",
+
+    "context": {
+      "session_id": "e.g. GPT4_Chat_2025-03-21",
+      "position_in_session": "e.g. 'third to last thought before topic shift'",
+      "related_topics": ["OSI Model", "KE Structure", "AI Reasoning"],
+      "user_intent": "What was the user trying to clarify, express, or achieve?",
+      "emotional_tone": "e.g. curious, unclear, excited, frustrated"
+    },
+
+    "assumptions": [
+      "What prior knowledge or beliefs are implied?",
+      "What is assumed to be true?"
+    ],
+
+    "implications": [
+      "What follows logically from this?",
+      "What possible next steps are suggested?",
+      "What might an AI infer from it?"
+    ],
+
+    "open_questions": [
+      "What remains unresolved?",
+      "What needs further clarification?"
+    ],
+
+    "recommended_next_actions": [
+      "What should happen next?",
+      "Are there specific prompt suggestions or AI instructions?"
+    ],
+
+    "author": "User or AI name/signature",
+    "generated_by": "GPT-4 | Gemini | Human",
+    "version": "1.0"
+  }
+}
